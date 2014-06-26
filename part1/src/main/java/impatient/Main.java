@@ -31,6 +31,7 @@ import cascading.tap.Tap;
 import cascading.tap.hadoop.Hfs;
 
 
+@SuppressWarnings("deprecation")
 public class
   Main
   {
