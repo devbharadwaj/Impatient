@@ -57,7 +57,7 @@ public class
     FlowDef flowDef = FlowDef.flowDef()
      .addSource( copyPipe, inTap )
      .addTailSink( copyPipe, outTap );
-
+ 
     // run the flow
     flowConnector.connect( flowDef ).complete();
     }
