@@ -51,7 +51,7 @@ public class
     AppProps.setApplicationJarClass( properties, Main.class );
     HadoopFlowConnector flowConnector = new HadoopFlowConnector( properties );
 
-    // create source and sink taps
+    // create source and sink taps 
     Tap docTap = new Hfs( new TextDelimited( true, "\t" ), docPath );
     Tap wcTap = new Hfs( new TextDelimited( true, "\t" ), wcPath );
 
